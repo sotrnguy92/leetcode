@@ -35,3 +35,12 @@ const isRobotBounded = function(instructions) {
 
 
 console.log( isRobotBounded(['G',"L"]))
+
+/**
+ * 2 ways the robot can get stuck in  a circle
+ *
+ * 1) returns to the origin after one run
+ *
+ * 2) is not at the origin and not facing the initial direction after one run
+ *
+ */
